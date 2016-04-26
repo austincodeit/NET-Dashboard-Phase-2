@@ -68,7 +68,7 @@ $(".case_type").children().click(function () {
 	updatePieChart(dataType, dataPicker.CCs.statuses, 750);
 	updateInfoStat("info1", data1, dataType);
 	updateInfoStat("info2", data1, dataType);
-	updateTable(dataType);
+// 	updateTable(dataType);
 });
 
 $(".reset").click(function () { //on reset button click
@@ -83,7 +83,7 @@ $(".reset").click(function () { //on reset button click
 	updatePieChart(dataType, dataPicker.CCs.statuses, 750);
 	updateInfoStat("info1", data1, dataType);
 	updateInfoStat("info2", data1, dataType);
-	updateTable(dataType);
+	// updateTable(dataType);
 });
 
 //tooltips
@@ -360,7 +360,7 @@ function groupDataObjects() { // see http://learnjsdata.com/group_data.html
 	}
 	
 	//populate stats and table
-	populateTable();
+	// populateTable();
 	populateInfoStat("info1", data1);
 	populateInfoStat("info2", data1);
 } //end groupDataObjects
